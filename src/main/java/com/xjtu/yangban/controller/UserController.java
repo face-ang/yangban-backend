@@ -1,14 +1,14 @@
-package com.xjtu.usercenter.controller;
+package com.xjtu.yangban.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.xjtu.usercenter.common.BaseResponse;
-import com.xjtu.usercenter.common.ErrorCode;
-import com.xjtu.usercenter.common.ResultUtils;
-import com.xjtu.usercenter.exception.BusinessException;
-import com.xjtu.usercenter.model.domain.User;
-import com.xjtu.usercenter.model.domain.request.UserLoginRequest;
-import com.xjtu.usercenter.model.domain.request.UserRegisterRequest;
-import com.xjtu.usercenter.service.UserService;
+import com.xjtu.yangban.common.BaseResponse;
+import com.xjtu.yangban.common.ErrorCode;
+import com.xjtu.yangban.common.ResultUtils;
+import com.xjtu.yangban.exception.BusinessException;
+import com.xjtu.yangban.model.domain.User;
+import com.xjtu.yangban.model.domain.request.UserLoginRequest;
+import com.xjtu.yangban.model.domain.request.UserRegisterRequest;
+import com.xjtu.yangban.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,8 +17,8 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.xjtu.usercenter.constant.UserConstant.ADMIN_ROLE;
-import static com.xjtu.usercenter.constant.UserConstant.USER_LOGIN_STATE;
+import static com.xjtu.yangban.constant.UserConstant.ADMIN_ROLE;
+import static com.xjtu.yangban.constant.UserConstant.USER_LOGIN_STATE;
 
 @RestController
 @RequestMapping("/user")

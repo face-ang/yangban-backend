@@ -1,8 +1,8 @@
-package com.xjtu.usercenter.service;
+package com.xjtu.yangban.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.xjtu.usercenter.model.domain.User;
+import com.xjtu.yangban.model.domain.User;
 
 import javax.servlet.http.HttpServletRequest;
 

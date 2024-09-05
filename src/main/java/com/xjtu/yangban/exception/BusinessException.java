@@ -1,6 +1,6 @@
-package com.xjtu.usercenter.exception;
+package com.xjtu.yangban.exception;
 
-import com.xjtu.usercenter.common.ErrorCode;
+import com.xjtu.yangban.common.ErrorCode;
 
 /**
  * 自定义异常类

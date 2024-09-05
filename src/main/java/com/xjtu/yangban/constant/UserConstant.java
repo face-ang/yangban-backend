@@ -1,4 +1,4 @@
-package com.xjtu.usercenter.constant;
+package com.xjtu.yangban.constant;
 
 /**
  * 用户常量（接口中默认public static）

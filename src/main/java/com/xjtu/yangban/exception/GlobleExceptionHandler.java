@@ -1,8 +1,8 @@
-package com.xjtu.usercenter.exception;
+package com.xjtu.yangban.exception;
 
-import com.xjtu.usercenter.common.BaseResponse;
-import com.xjtu.usercenter.common.ErrorCode;
-import com.xjtu.usercenter.common.ResultUtils;
+import com.xjtu.yangban.common.BaseResponse;
+import com.xjtu.yangban.common.ErrorCode;
+import com.xjtu.yangban.common.ResultUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

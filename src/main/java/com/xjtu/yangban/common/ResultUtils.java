@@ -1,4 +1,4 @@
-package com.xjtu.usercenter.common;
+package com.xjtu.yangban.common;
 
 /**
  * 返回工具类

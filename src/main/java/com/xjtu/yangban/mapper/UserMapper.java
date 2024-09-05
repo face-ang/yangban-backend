@@ -1,6 +1,6 @@
-package com.xjtu.usercenter.mapper;
+package com.xjtu.yangban.mapper;
 
-import com.xjtu.usercenter.model.domain.User;
+import com.xjtu.yangban.model.domain.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

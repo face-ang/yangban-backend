@@ -1,13 +1,13 @@
-package com.xjtu.usercenter.service.impl;
+package com.xjtu.yangban.service.impl;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.xjtu.usercenter.common.ErrorCode;
-import com.xjtu.usercenter.exception.BusinessException;
-import com.xjtu.usercenter.model.domain.User;
-import com.xjtu.usercenter.service.UserService;
-import com.xjtu.usercenter.mapper.UserMapper;
+import com.xjtu.yangban.common.ErrorCode;
+import com.xjtu.yangban.exception.BusinessException;
+import com.xjtu.yangban.model.domain.User;
+import com.xjtu.yangban.service.UserService;
+import com.xjtu.yangban.mapper.UserMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.xjtu.usercenter.constant.UserConstant.USER_LOGIN_STATE;
+import static com.xjtu.yangban.constant.UserConstant.USER_LOGIN_STATE;
 
 /**
  * @author admin

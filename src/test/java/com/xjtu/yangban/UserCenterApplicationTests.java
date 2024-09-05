@@ -1,4 +1,4 @@
-package com.xjtu.usercenter;
+package com.xjtu.yangban;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

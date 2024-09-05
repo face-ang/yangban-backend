@@ -1,4 +1,4 @@
-package com.xjtu.usercenter.model.domain.request;
+package com.xjtu.yangban.model.domain.request;
 
 import lombok.Data;
 

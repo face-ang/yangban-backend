@@ -1,7 +1,6 @@
-package com.xjtu.usercenter.service;
-import java.util.Date;
+package com.xjtu.yangban.service;
 
-import com.xjtu.usercenter.model.domain.User;
+import com.xjtu.yangban.model.domain.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

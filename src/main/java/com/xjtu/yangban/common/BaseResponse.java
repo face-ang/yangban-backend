@@ -1,4 +1,4 @@
-package com.xjtu.usercenter.common;
+package com.xjtu.yangban.common;
 
 import lombok.Data;
 
